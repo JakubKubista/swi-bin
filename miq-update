@@ -1,9 +1,10 @@
 #!/bin/sh
 set -e
 
-cd ~/utery/manageiq-ui-classic
+cd ~/ctvrtek/manageiq-ui-classic
 git up
 
-cd ~/utery/manageiq
+cd ~/ctvrtek/manageiq
 git up
+~/ctvrtek/swi-bin/manageiq-update-forks
 bin/update && echo OK || echo FAIL
