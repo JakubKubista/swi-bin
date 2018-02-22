@@ -1,0 +1,8 @@
+#!/bin/sh
+cd ~/ctvrtek/manageiq
+git push origin master
+cd ~/ctvrtek/manageiq-ui-classic
+git push origin master
+cd ~/ctvrtek/swi-bin
+git push origin master
+set -e
